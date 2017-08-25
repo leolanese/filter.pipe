@@ -1,5 +1,5 @@
 # filter.pipe
-Filter Pipe
+Angular 2/4 simple filter pipe
 
 
 ## Start deployment
