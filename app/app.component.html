@@ -1,5 +1,6 @@
+<input [(ngModel)]="searchText" placeholder="Search...">
 <ul>
-  <li *ngFor="let c of characters">
+  <li *ngFor="let c of characters | filter : searchText">
     {{c}}
   </li>
 </ul>
